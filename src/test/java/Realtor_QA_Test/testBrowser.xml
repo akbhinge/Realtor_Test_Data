@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Browser_TestSuite" thread-count="2" parallel="tests" >
+
+    <test name="Chrome_Test">
+
+        <parameter name="currentBrowser" value="Chrome" />
+
+        <classes>
+
+            <class name="Realtor_QA_Test.realtorData">
+
+            </class>
+
+        </classes>
+
+    </test>
+
+    <test name="FireFox_Test">
+
+        <parameter name="currentBrowser" value="firefox" />
+
+        <classes>
+
+            <class name="Realtor_QA_Test.realtorData">
+
+            </class>
+
+        </classes>
+
+    </test>
+
+</suite>
