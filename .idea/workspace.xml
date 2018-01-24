@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee6c3b89-1343-4c50-acfb-e7f285f18435" name="Default" comment="" />
+    <list default="true" id="ee6c3b89-1343-4c50-acfb-e7f285f18435" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Realtor_QA_Test/pages/realtorDetailsPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Realtor_QA_Test/pages/realtorHomePage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Realtor_QA_Test/pages/realtorListingsPage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Realtor_QA_Test/realtorData.java" afterPath="$PROJECT_DIR$/src/test/java/Realtor_QA_Test/tests/testRealtorData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Realtor_QA_Test/testBrowser.xml" afterPath="$PROJECT_DIR$/src/test/java/Realtor_QA_Test/testBrowser.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +31,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-581">
-              <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="459">
+              <caret line="36" column="11" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -40,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="realtorData.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Realtor_QA_Test/realtorData.java">
+      <file leaf-file-name="testRealtorData.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Realtor_QA_Test/tests/testRealtorData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,22 +60,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.txt">
+      <file leaf-file-name="realtorHomePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Realtor_QA_Test/pages/realtorHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-317">
-              <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-              <folding />
+            <state relative-caret-position="119">
+              <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#811#812#0" expanded="true" />
+                <element signature="e#865#866#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_Output.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_Output.txt">
+      <file leaf-file-name="realtorDetailsPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Realtor_QA_Test/pages/realtorDetailsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="56">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="realtorListingsPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Realtor_QA_Test/pages/realtorListingsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,6 +114,9 @@
       <find>a1</find>
       <find>text</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -128,6 +157,11 @@
         <option value="$PROJECT_DIR$/src/test/java/Realtor_QA_Test/realtorData.java" />
         <option value="$PROJECT_DIR$/test_Output.txt" />
         <option value="$PROJECT_DIR$/README.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/Realtor_QA_Test/tests/realtorData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Realtor_QA_Test/pages/realtorHomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Realtor_QA_Test/pages/realtorDetailsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Realtor_QA_Test/pages/realtorListingsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Realtor_QA_Test/tests/testRealtorData.java" />
       </list>
     </option>
   </component>
@@ -160,6 +194,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -215,7 +250,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -276,10 +310,10 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="realtorData" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="testRealtorData" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Realtor_QA_Test.*" />
+          <option name="PATTERN" value="Realtor_QA_Test.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,7 +322,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="SOCI_QA_Test" />
-      <option name="MAIN_CLASS_NAME" value="Realtor_QA_Test.realtorData" />
+      <option name="MAIN_CLASS_NAME" value="Realtor_QA_Test.tests.testRealtorData" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -621,7 +655,7 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="TestNG.C:/Users/Bhinge/IdeaProjects/SeleniumTest/src/test/java/SOCI_QA_Test/testing.xml" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.realtorData" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.testRealtorData" />
       <item index="2" class="java.lang.String" itemvalue="TestNG.C:/Users/Bhinge/IdeaProjects/SeleniumTest/src/test/java/Realtor_QA_Test/testing.xml" />
       <item index="3" class="java.lang.String" itemvalue="TestNG.C:/Users/Bhinge/IdeaProjects/SeleniumTest/src/test/java/Realtor_QA_Test/testBrowsers.xml" />
       <item index="4" class="java.lang.String" itemvalue="TestNG.C:/Users/Bhinge/Desktop/CODE/Realtor_Test/src/test/java/Realtor_QA_Test/testBrowser.xml" />
@@ -632,7 +666,7 @@
         <item index="1" class="java.lang.String" itemvalue="TestNG.C:/Users/Bhinge/IdeaProjects/SeleniumTest/src/test/java/Realtor_QA_Test/testBrowsers.xml" />
         <item index="2" class="java.lang.String" itemvalue="TestNG.C:/Users/Bhinge/IdeaProjects/SeleniumTest/src/test/java/Realtor_QA_Test/testing.xml" />
         <item index="3" class="java.lang.String" itemvalue="TestNG.C:/Users/Bhinge/IdeaProjects/SeleniumTest/src/test/java/SOCI_QA_Test/testing.xml" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.realtorData" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.testRealtorData" />
       </list>
     </recent_temporary>
   </component>
@@ -653,21 +687,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Bhinge_Desktop_CODE_Realtor_Test_src_test_java_Realtor_QA_Test_testBrowser_xml - 2018.01.22 at 00h 36m 27s.xml">
-      <configuration name="C:/Users/Bhinge/Desktop/CODE/Realtor_Test/src/test/java/Realtor_QA_Test/testBrowser.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Bhinge_Desktop_CODE_Realtor_Test_src_test_java_Realtor_QA_Test_testBrowser_xml - 2018.01.22 at 01h 02m 02s.xml">
-      <configuration name="C:/Users/Bhinge/Desktop/CODE/Realtor_Test/src/test/java/Realtor_QA_Test/testBrowser.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Bhinge_Desktop_CODE_Realtor_Test_src_test_java_Realtor_QA_Test_testBrowser_xml - 2018.01.22 at 01h 04m 23s.xml">
-      <configuration name="C:/Users/Bhinge/Desktop/CODE/Realtor_Test/src/test/java/Realtor_QA_Test/testBrowser.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Bhinge_Desktop_CODE_Realtor_Test_src_test_java_Realtor_QA_Test_testBrowser_xml - 2018.01.22 at 07h 26m 22s.xml">
-      <configuration name="C:/Users/Bhinge/Desktop/CODE/Realtor_Test/src/test/java/Realtor_QA_Test/testBrowser.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Bhinge_Desktop_CODE_Realtor_Test_src_test_java_Realtor_QA_Test_testBrowser_xml - 2018.01.22 at 08h 17m 07s.xml">
-      <configuration name="C:/Users/Bhinge/Desktop/CODE/Realtor_Test/src/test/java/Realtor_QA_Test/testBrowser.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_Bhinge_Desktop_CODE_Realtor_Test_src_test_java_Realtor_QA_Test_testBrowser_xml - 2018.01.22 at 08h 18m 58s.xml">
       <configuration name="C:/Users/Bhinge/Desktop/CODE/Realtor_Test/src/test/java/Realtor_QA_Test/testBrowser.xml" configurationId="TestNG" />
     </history-entry>
@@ -681,6 +700,21 @@
       <configuration name="C:/Users/Bhinge/Desktop/CODE/Realtor_Test/src/test/java/Realtor_QA_Test/testBrowser.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="C__Users_Bhinge_Desktop_CODE_Realtor_Test_src_test_java_Realtor_QA_Test_testBrowser_xml - 2018.01.22 at 08h 36m 59s.xml">
+      <configuration name="C:/Users/Bhinge/Desktop/CODE/Realtor_Test/src/test/java/Realtor_QA_Test/testBrowser.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Bhinge_Desktop_CODE_Realtor_Test_src_test_java_Realtor_QA_Test_testBrowser_xml - 2018.01.23 at 17h 07m 39s.xml">
+      <configuration name="C:/Users/Bhinge/Desktop/CODE/Realtor_Test/src/test/java/Realtor_QA_Test/testBrowser.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Bhinge_Desktop_CODE_Realtor_Test_src_test_java_Realtor_QA_Test_testBrowser_xml - 2018.01.23 at 17h 08m 52s.xml">
+      <configuration name="C:/Users/Bhinge/Desktop/CODE/Realtor_Test/src/test/java/Realtor_QA_Test/testBrowser.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Bhinge_Desktop_CODE_Realtor_Test_src_test_java_Realtor_QA_Test_testBrowser_xml - 2018.01.23 at 17h 09m 54s.xml">
+      <configuration name="C:/Users/Bhinge/Desktop/CODE/Realtor_Test/src/test/java/Realtor_QA_Test/testBrowser.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Bhinge_Desktop_CODE_Realtor_Test_src_test_java_Realtor_QA_Test_testBrowser_xml - 2018.01.23 at 17h 13m 19s.xml">
+      <configuration name="C:/Users/Bhinge/Desktop/CODE/Realtor_Test/src/test/java/Realtor_QA_Test/testBrowser.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Bhinge_Desktop_CODE_Realtor_Test_src_test_java_Realtor_QA_Test_testBrowser_xml - 2018.01.23 at 17h 15m 15s.xml">
       <configuration name="C:/Users/Bhinge/Desktop/CODE/Realtor_Test/src/test/java/Realtor_QA_Test/testBrowser.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -697,8 +731,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46845427" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46845427" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -733,16 +767,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/SOCI_QA_Test/SeleniumTest2.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/SOCI_QA_Test/DateTimePicker.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SOCI_QA_Test/SeleniumTest3.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -845,19 +869,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Realtor_QA_Test/README.txt" />
+    <entry file="file://$PROJECT_DIR$/test_Output.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-581">
-          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="1037">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Realtor_QA_Test/README.txt">
+    <entry file="file://$PROJECT_DIR$/README.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="36" column="11" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Realtor_QA_Test/pages/realtorDetailsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Realtor_QA_Test/pages/realtorListingsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Realtor_QA_Test/pages/realtorHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -869,26 +934,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_Output.txt">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Realtor_QA_Test/tests/testRealtorData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-317">
-          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Realtor_QA_Test/realtorData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -947,7 +996,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>SeleniumTest</last-edited>
+          <last-edited>test_RealtorData</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

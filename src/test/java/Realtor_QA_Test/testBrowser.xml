@@ -10,7 +10,7 @@
 
         <classes>
 
-            <class name="Realtor_QA_Test.realtorData">
+            <class name="Realtor_QA_Test.tests.testRealtorData">
 
             </class>
 
@@ -24,7 +24,7 @@
 
         <classes>
 
-            <class name="Realtor_QA_Test.realtorData">
+            <class name="Realtor_QA_Test.tests.testRealtorData">
 
             </class>
 
