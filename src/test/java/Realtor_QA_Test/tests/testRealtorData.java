@@ -49,18 +49,14 @@ public class testRealtorData {
 
     }
 
-    // Function to write test scripts for verifying given conditions
+    // Test scripts to verify Home Page
 
     @Test
-    public void testRealtorDataWithConditions() {
+    public void testRealtor_HomePage() {
 
-        // creating objects for each page
+        // creating object for Home Page
 
         realtorHomePage homePageObj = new realtorHomePage(driver);
-
-        realtorListingsPage listingsPageObj = new realtorListingsPage(driver);
-
-        realtorDetailsPage detailsPageObj = new realtorDetailsPage(driver);
 
         // Navigating to realtor.com and enter Morgantown, WV in search box
 
@@ -71,6 +67,20 @@ public class testRealtorData {
         // Get the total number of property listings available at a particular day
 
         homePageObj.getHouseListings();
+
+    }
+
+    // Test scripts to verify Listings and Details Page
+    @Test
+    public void testRealtor_Listings_And_Details_Page() {
+
+        // creating objects for Listings and Details page
+
+        realtorListingsPage listingsPageObj = new realtorListingsPage(driver);
+
+        realtorDetailsPage detailsPageObj = new realtorDetailsPage(driver);
+
+        // get total number of available House listings
 
         int total_Listings = listingsPageObj.getTotalListings();
 

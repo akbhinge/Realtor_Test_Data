@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee6c3b89-1343-4c50-acfb-e7f285f18435" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Realtor_QA_Test/pages/realtorDetailsPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Realtor_QA_Test/pages/realtorHomePage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Realtor_QA_Test/pages/realtorListingsPage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Realtor_QA_Test/realtorData.java" afterPath="$PROJECT_DIR$/src/test/java/Realtor_QA_Test/tests/testRealtorData.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Realtor_QA_Test/testBrowser.xml" afterPath="$PROJECT_DIR$/src/test/java/Realtor_QA_Test/testBrowser.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Realtor_QA_Test/tests/testRealtorData.java" afterPath="$PROJECT_DIR$/src/test/java/Realtor_QA_Test/tests/testRealtorData.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,7 +36,7 @@
       <file leaf-file-name="testBrowser.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Realtor_QA_Test/testBrowser.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="102">
               <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
@@ -51,8 +46,8 @@
       <file leaf-file-name="testRealtorData.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Realtor_QA_Test/tests/testRealtorData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+            <state relative-caret-position="510">
+              <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -684,18 +679,17 @@
       <option name="presentableId" value="Default" />
       <updated>1488238845614</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;Made modifications to the test scripts&quot;">
+      <created>1516756597699</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1516756597699</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Bhinge_Desktop_CODE_Realtor_Test_src_test_java_Realtor_QA_Test_testBrowser_xml - 2018.01.22 at 08h 18m 58s.xml">
-      <configuration name="C:/Users/Bhinge/Desktop/CODE/Realtor_Test/src/test/java/Realtor_QA_Test/testBrowser.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Bhinge_Desktop_CODE_Realtor_Test_src_test_java_Realtor_QA_Test_testBrowser_xml - 2018.01.22 at 08h 21m 59s.xml">
-      <configuration name="C:/Users/Bhinge/Desktop/CODE/Realtor_Test/src/test/java/Realtor_QA_Test/testBrowser.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Bhinge_Desktop_CODE_Realtor_Test_src_test_java_Realtor_QA_Test_testBrowser_xml - 2018.01.22 at 08h 25m 35s.xml">
-      <configuration name="C:/Users/Bhinge/Desktop/CODE/Realtor_Test/src/test/java/Realtor_QA_Test/testBrowser.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_Bhinge_Desktop_CODE_Realtor_Test_src_test_java_Realtor_QA_Test_testBrowser_xml - 2018.01.22 at 08h 27m 02s.xml">
       <configuration name="C:/Users/Bhinge/Desktop/CODE/Realtor_Test/src/test/java/Realtor_QA_Test/testBrowser.xml" configurationId="TestNG" />
     </history-entry>
@@ -715,6 +709,15 @@
       <configuration name="C:/Users/Bhinge/Desktop/CODE/Realtor_Test/src/test/java/Realtor_QA_Test/testBrowser.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="C__Users_Bhinge_Desktop_CODE_Realtor_Test_src_test_java_Realtor_QA_Test_testBrowser_xml - 2018.01.23 at 17h 15m 15s.xml">
+      <configuration name="C:/Users/Bhinge/Desktop/CODE/Realtor_Test/src/test/java/Realtor_QA_Test/testBrowser.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Bhinge_Desktop_CODE_Realtor_Test_src_test_java_Realtor_QA_Test_testBrowser_xml - 2018.01.23 at 17h 45m 44s.xml">
+      <configuration name="C:/Users/Bhinge/Desktop/CODE/Realtor_Test/src/test/java/Realtor_QA_Test/testBrowser.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Bhinge_Desktop_CODE_Realtor_Test_src_test_java_Realtor_QA_Test_testBrowser_xml - 2018.01.23 at 17h 49m 01s.xml">
+      <configuration name="C:/Users/Bhinge/Desktop/CODE/Realtor_Test/src/test/java/Realtor_QA_Test/testBrowser.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Bhinge_Desktop_CODE_Realtor_Test_src_test_java_Realtor_QA_Test_testBrowser_xml - 2018.01.23 at 17h 50m 55s.xml">
       <configuration name="C:/Users/Bhinge/Desktop/CODE/Realtor_Test/src/test/java/Realtor_QA_Test/testBrowser.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -755,6 +758,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;Made modifications to the test scripts&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Made modifications to the test scripts&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -928,7 +935,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Realtor_QA_Test/testBrowser.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="102">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
@@ -936,8 +943,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Realtor_QA_Test/tests/testRealtorData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+        <state relative-caret-position="510">
+          <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
